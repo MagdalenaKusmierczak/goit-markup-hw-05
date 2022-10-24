@@ -135,7 +135,6 @@ ul {
 .project-description {
   max-width: 370px;
   background-color: var(--pure-white);
-  border: 1px solid #eee;
 }
 .project-description:hover,
 .project-description:focus {
@@ -145,6 +144,10 @@ ul {
 .project-figure {
   margin: 0 0;
   display: block;
+}
+.project-figure-caption {
+  border: 1px solid #eee;
+  border-top: none;
 }
 .project-figure img {
   display: block;
