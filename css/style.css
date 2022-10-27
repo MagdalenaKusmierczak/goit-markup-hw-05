@@ -535,3 +535,25 @@ a.link {
   transform: translateY(-100%);
 }
 /* overlay */
+/* Modal */
+.modal {
+  cursor: not-allowed;
+  display: flex;
+background-color: hsla(0, 0%, 0%, .5);
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+}
+.modal-box {
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  width: 360px;
+  height: 200px;
+  background-color: #fff;
+  cursor: initial;
+/* Wprowadź właściwość pod tym wierszem */
+margin:auto;
+}
+/* Modal */
