@@ -51,6 +51,7 @@ ul {
   padding: 23.94px;
   background-color: var(--pure-white);
   border-bottom: 1px solid var(--creme-white);
+  position: relative;
 }
 .header-box {
   display: flex;
@@ -66,7 +67,6 @@ ul {
   display: flex;
   padding-left: 93px;
   gap: 46px;
-  position: relative;
 }
 .header-contacts {
   display: flex;
@@ -218,7 +218,7 @@ a.link {
   border: 1px;
   border-radius: 2px;
   position: absolute;
-  top: 44px;
+  bottom: -1px;
 }
 .header .current-page::after {
   content: '';
@@ -229,7 +229,7 @@ a.link {
   border: 1px;
   border-radius: 2px;
   position: absolute;
-  top: 45px;
+  bottom: -1px;
 }
 .link:active,
 .link:visited {
