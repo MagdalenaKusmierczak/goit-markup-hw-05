@@ -514,7 +514,7 @@ a.link {
 .overlay-portfolio-paragraph {
   font-size: 18px;
   line-height: 1.33;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: var(--pure-white);
   padding: 49px 5px 49px 24px;
 }
@@ -573,7 +573,7 @@ a.link {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden {
-  visibility: 0;
+  visibility: hidden;
   opacity: 0;
   pointer-events: none;
 }
