@@ -568,9 +568,14 @@ a.link {
   right: 0;
   top: 0;
   bottom: 0;
+  transition: visibility, opacity;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden {
-  display: none;
+  visibility: 0;
+  opacity: 0;
+  pointer-events: none;
 }
 .modal-box {
   box-sizing: border-box;
@@ -601,3 +606,4 @@ a.link {
   height: 11px;
 }
 /* Modal */
+/* Animations  */
