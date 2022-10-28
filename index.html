@@ -72,7 +72,7 @@
           <h1 class="introduction-header">
             Efektywne rozwiązania dla Waszego biznesu
           </h1>
-          <button class="introduction-button" type="button">
+          <button class="introduction-button" type="button" data-modal-open>
             Zamów usługę
           </button>
         </div>
@@ -550,11 +550,13 @@
         </div>
       </div>
     </footer>
-    <div class="modal is-hidden">
+    <div class="modal is-hidden" data-modal>
       <div class="modal-box">
-        <button class="btn-modal" type="button"><svg class="btn-modal-icon">
-                    <use href="./images/icons.svg#btn-modal"></use>
-                  </svg></button>
+        <button class="btn-modal" type="button" data-modal-close>
+          <svg class="btn-modal-icon">
+            <use href="./images/icons.svg#btn-modal"></use>
+          </svg>
+        </button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
