@@ -570,14 +570,34 @@ a.link {
   bottom: 0;
 }
 .is-hidden {
-  /* display: none; */
+  display: none;
 }
 .modal-box {
   box-sizing: border-box;
   width: 528px;
   height: 581px;
-  background-color: #fff;
+  background-color: var(--pure-white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
   cursor: initial;
   margin: auto;
+  position: relative;
+}
+.btn-modal {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: var(--pure-white);
+  cursor: pointer;
+}
+.btn-modal-icon {
+  fill: #000;
+  width: 11px;
+  height: 11px;
 }
 /* Modal */
